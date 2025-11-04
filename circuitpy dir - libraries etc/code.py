@@ -148,7 +148,7 @@ def snake_play():
 rgb_val = 0
 def rgb_iterate():
     global rgb_val
-    if rgb_val > 360:
+    if rgb_val > 359:
         rgb_val = 0
     var = palette[rgb_val]
     np[0] = var
